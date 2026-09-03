@@ -44,26 +44,26 @@ public class ConditionalChallenge {
 
         System.out.println("Number: " + number);
         if (number > 0){
-            System.out.println(number + "is Positive");
+            System.out.println(number + " is Positive");
         }else if (number == 0){
-            System.out.println(number + "is Zero");
+            System.out.println(number + " is Zero");
         }else{
-            System.out.println(number + "is Negative");
+            System.out.println(number + " is Negative");
         }
         if (number % 2 == 0){
-            System.out.println(number + "is even");
+            System.out.println(number + " is even");
         }else{
-            System.out.println(number + "is odd");
+            System.out.println(number + " is odd");
         }
         if (number % 5 == 0){
-            System.out.println(number + "is a multiple of 5");
+            System.out.println(number + " is a multiple of 5");
         }else{
-            System.out.println(number + "is not a multiple of 5");
+            System.out.println(number + " is not a multiple of 5");
         }
         if (number % 2 == 0){
-            System.out.println(number + "is a multiple of 3");
+            System.out.println(number + " is a multiple of 3");
         }else{
-            System.out.println(number + "is not a multiple of 3");
+            System.out.println(number + " is not a multiple of 3");
         }
     }
 }
