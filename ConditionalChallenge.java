@@ -6,9 +6,9 @@ public class ConditionalChallenge {
         boolean isCold = true;
 
         if (isCold){
-            temperature += 15;
+            temperature -= 15;
         }else{
-            temperature -= 10;
+            temperature += 10;
         }
         System.out.println("Temperature: " + temperature);
 
